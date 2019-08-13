@@ -1,0 +1,17 @@
+\usepackage{listing}
+\usepackage{listingsutf8}
+
+\def\CS#1{\texttt{\textbackslash#1}}
+
+\usepackage[most]{tcolorbox}
+\definecolor{my-gray}{cmyk}{0.80, 0.13, 0.14, 0.04, 1.00}
+\newtcblisting{commandshell}{colback=my-gray,colupper=white,colframe=yellow!75!black,
+listing only,listing options={style=tcblatex,language=sh},
+every listing line={\textcolor{red}{\small\ttfamily\bfseries user \$ > }}}
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+* 
+
+!.gitignore
+!*.pdf
+!*.tex
+!compileall.sh
+!*/
+!*/chapters/
+!*/styles/
+!*.jpeg
+!*.jpg
+!*/images/*
